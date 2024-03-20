@@ -1,0 +1,126 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.race-track {
+    position: relative;
+    background-color: #dcdcdc;
+    width: 80%;
+    margin: 0 auto;
+    height: 250px; /* Ajuste a altura da pista conforme necessário */
+}
+
+.car {
+    position: absolute;
+    top: 70px;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+.start-line,
+.finish-line {
+    position: absolute;
+    top: 50px;
+    height: 100px;
+    width: 5px;
+    background-color: black;
+}
+
+.start-line {
+    left: 0;
+}
+
+.finish-line {
+    right: 0;
+}
+
+.betting-panel {
+    margin-bottom: 20px;
+}
+
+.result {
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.race-track {
+    position: relative;
+    background-color: #dcdcdc;
+    width: 80%; /* Largura da pista */
+    margin: 0 auto;
+    height: 260px; /* Altura da pista */
+}
+.start-line,
+.finish-line {
+    position: absolute;
+    top: 50px;
+    height: 150px; /* Ajuste a altura das linhas conforme necessário */
+    width: 5px;
+    background-color: black;
+}
+
+.start-line {
+    left: 0;
+}
+
+.finish-line {
+    right: 0;
+}
+.car {
+    position: absolute;
+    top: 70px;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+.start-line,
+.finish-line {
+    position: absolute;
+    top: 08px;
+    height: 250px;
+    width: 4px;
+    background-color: black;
+}
+
+.start-line {
+    left: 0;
+}
+
+.finish-line {
+    right: 0;
+}
+
+.betting-panel {
+    margin-bottom: 20px;
+}
+
+.result {
+    margin-bottom: 20px;
+}
+.car {
+    position: absolute;
+    left: -50px; /* Posição inicial dos carros atrás da linha de largada */
+    top: 20px; /* Posição vertical inicial dos carros */
+    height: 30px;
+    width: 30px;
+    background-color: red; /* Cor padrão, pode ser substituída */
+}
+
+#car1 { top: 20px; }
+#car2 { top: 70px; }
+#car3 { top: 120px; }
+#car4 { top: 170px; }
+#car5 { top: 220px; }
+#car1 { background-color: red; }
+#car2 { background-color: blue; }
+#car3 { background-color: green; }
+#car4 { background-color: yellow; }
+#car5 { background-color: orange; }
