@@ -119,8 +119,8 @@
 #car3 { top: 120px; }
 #car4 { top: 170px; }
 #car5 { top: 220px; }
-#car1 { background-color: red; }
-#car2 { background-color: blue; }
-#car3 { background-color: green; }
+#car1 { background-color: gray; }
+#car2 { background-color: red; }
+#car3 { background-color: orange; }
 #car4 { background-color: yellow; }
-#car5 { background-color: orange; }
+#car5 { background-color: purple; }
